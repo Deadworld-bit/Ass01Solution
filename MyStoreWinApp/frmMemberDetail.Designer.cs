@@ -48,7 +48,7 @@ namespace MyStoreWinApp
             // lbMemberID
             // 
             this.lbMemberID.AutoSize = true;
-            this.lbMemberID.Location = new System.Drawing.Point(150, 72);
+            this.lbMemberID.Location = new System.Drawing.Point(48, 49);
             this.lbMemberID.Name = "lbMemberID";
             this.lbMemberID.Size = new System.Drawing.Size(63, 15);
             this.lbMemberID.TabIndex = 0;
@@ -57,7 +57,7 @@ namespace MyStoreWinApp
             // lbEmail
             // 
             this.lbEmail.AutoSize = true;
-            this.lbEmail.Location = new System.Drawing.Point(150, 112);
+            this.lbEmail.Location = new System.Drawing.Point(48, 84);
             this.lbEmail.Name = "lbEmail";
             this.lbEmail.Size = new System.Drawing.Size(36, 15);
             this.lbEmail.TabIndex = 1;
@@ -66,7 +66,7 @@ namespace MyStoreWinApp
             // lbCompanyName
             // 
             this.lbCompanyName.AutoSize = true;
-            this.lbCompanyName.Location = new System.Drawing.Point(150, 154);
+            this.lbCompanyName.Location = new System.Drawing.Point(48, 121);
             this.lbCompanyName.Name = "lbCompanyName";
             this.lbCompanyName.Size = new System.Drawing.Size(94, 15);
             this.lbCompanyName.TabIndex = 2;
@@ -75,7 +75,7 @@ namespace MyStoreWinApp
             // lbCity
             // 
             this.lbCity.AutoSize = true;
-            this.lbCity.Location = new System.Drawing.Point(150, 198);
+            this.lbCity.Location = new System.Drawing.Point(48, 154);
             this.lbCity.Name = "lbCity";
             this.lbCity.Size = new System.Drawing.Size(28, 15);
             this.lbCity.TabIndex = 3;
@@ -84,7 +84,7 @@ namespace MyStoreWinApp
             // lbCountry
             // 
             this.lbCountry.AutoSize = true;
-            this.lbCountry.Location = new System.Drawing.Point(150, 244);
+            this.lbCountry.Location = new System.Drawing.Point(48, 193);
             this.lbCountry.Name = "lbCountry";
             this.lbCountry.Size = new System.Drawing.Size(50, 15);
             this.lbCountry.TabIndex = 4;
@@ -93,7 +93,7 @@ namespace MyStoreWinApp
             // lbPassword
             // 
             this.lbPassword.AutoSize = true;
-            this.lbPassword.Location = new System.Drawing.Point(150, 290);
+            this.lbPassword.Location = new System.Drawing.Point(48, 236);
             this.lbPassword.Name = "lbPassword";
             this.lbPassword.Size = new System.Drawing.Size(57, 15);
             this.lbPassword.TabIndex = 5;
@@ -101,42 +101,42 @@ namespace MyStoreWinApp
             // 
             // txtMemberID
             // 
-            this.txtMemberID.Location = new System.Drawing.Point(278, 64);
+            this.txtMemberID.Location = new System.Drawing.Point(218, 41);
             this.txtMemberID.Name = "txtMemberID";
             this.txtMemberID.Size = new System.Drawing.Size(344, 23);
             this.txtMemberID.TabIndex = 6;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(278, 104);
+            this.txtEmail.Location = new System.Drawing.Point(218, 76);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(344, 23);
             this.txtEmail.TabIndex = 7;
             // 
             // txtCompanyName
             // 
-            this.txtCompanyName.Location = new System.Drawing.Point(278, 146);
+            this.txtCompanyName.Location = new System.Drawing.Point(218, 113);
             this.txtCompanyName.Name = "txtCompanyName";
             this.txtCompanyName.Size = new System.Drawing.Size(344, 23);
             this.txtCompanyName.TabIndex = 8;
             // 
             // txtCity
             // 
-            this.txtCity.Location = new System.Drawing.Point(278, 190);
+            this.txtCity.Location = new System.Drawing.Point(218, 146);
             this.txtCity.Name = "txtCity";
             this.txtCity.Size = new System.Drawing.Size(344, 23);
             this.txtCity.TabIndex = 9;
             // 
             // txtCountry
             // 
-            this.txtCountry.Location = new System.Drawing.Point(278, 236);
+            this.txtCountry.Location = new System.Drawing.Point(218, 185);
             this.txtCountry.Name = "txtCountry";
             this.txtCountry.Size = new System.Drawing.Size(344, 23);
             this.txtCountry.TabIndex = 10;
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(278, 282);
+            this.txtPassword.Location = new System.Drawing.Point(218, 228);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(344, 23);
             this.txtPassword.TabIndex = 11;
@@ -144,7 +144,7 @@ namespace MyStoreWinApp
             // btnSave
             // 
             this.btnSave.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnSave.Location = new System.Drawing.Point(278, 345);
+            this.btnSave.Location = new System.Drawing.Point(218, 284);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 12;
@@ -155,7 +155,7 @@ namespace MyStoreWinApp
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(547, 345);
+            this.btnCancel.Location = new System.Drawing.Point(487, 284);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 13;
@@ -167,7 +167,7 @@ namespace MyStoreWinApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(631, 340);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtPassword);
